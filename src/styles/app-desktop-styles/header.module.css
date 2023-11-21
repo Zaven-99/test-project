@@ -1,0 +1,117 @@
+.header{
+    color:#E4E5EA;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.header-logo__block{
+     padding-top: 57px;
+}
+.header-logo__block-inner{
+    display: flex;
+    align-items: center;
+    gap: 7.95px;
+}
+.header-logo{
+    background-image: url(../../Components/img/logo/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 24px;
+    width: 35.5px;
+}
+.header-logo__name{
+    background-image: url(../../Components/img/logo/logoName.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 97px;
+    height: 15px;
+
+}
+.about-us__title{
+    position: relative;
+    width: 165px;
+    height: 24px;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    left: -1.5em;
+    padding-top: 10px;
+ }
+ .header-menu__block ul{
+    display: flex;
+    align-items:center;
+    gap: 30px;
+    padding-top: 46px;
+    padding-left: 52px;
+ }
+ .header-menu__block ul li {
+    color: #E4E5EA;
+    font-size: 16px;
+ }
+ .header-menu__block ul li:hover {
+     opacity: .5;
+     transition: 1s;
+     transform: scale(1.01);
+ }
+  
+
+ .contacts-block{
+    padding-top: 46px;
+    display: flex;
+    align-items:center;
+ }
+
+ .phone-number{
+    padding-left: 137px;
+    padding-right: 47px;
+    color:#E4E5EA;
+    font-size: 16px;
+ }
+ .phone-number:hover{
+     opacity: .5;
+     transition: 1s;
+     transform: scale(1.01);
+ }
+
+ .apps{
+     display: flex;
+    align-items:center;
+    gap: 30px;
+ }
+ .telegram{
+    background-image:url(../../Components//img/apps/telegram.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+ }
+.telegram:hover{
+    opacity: .5;
+    transition: 1s;
+    transform: scale(1.01);
+}
+ .whatsUp{
+    background-image:url(../../Components//img/apps/whatsUp.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+ }
+ .whatsUp:hover{
+    opacity: .5;
+    transition: 1s;
+    transform: scale(1.01);
+}
+.viber{
+    background-image:url(../../Components//img/apps/viber.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+ }
+ .viber:hover{
+    opacity: .5;
+    transition: 1s;
+    transform: scale(1.01);
+}

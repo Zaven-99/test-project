@@ -1,0 +1,62 @@
+.main{
+    background-image: url(../../Components/img/background-for-mobile/backgrounds.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* height: 140vh; */
+    padding-left: 14px;
+    padding-right: 34px;
+    padding-top: 40px;
+}
+.about-us__block-title p{
+    color: #E4E5EA;
+    font-size: 36px;
+    font-family: 'Inter', sans-serif;
+}
+.about-us__block-logo{
+    background-image:url(../../Components/img/mainLogo/welbex.svg);
+    width: 186px;
+    height: 44px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 15px;
+}
+.about-us__block-description p{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color:#E4E5EA;
+    padding-bottom: 45px;
+}
+
+.consultation-title p{
+    color:#E4E5EA;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+     
+}
+
+.consultation-title span {
+    color:#FCB045;
+    font-size: 18px;
+ }
+ .consultation-block{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+     gap: 14px;
+     padding-bottom: 59px;
+ }
+ .consultation-item{
+    color:#E4E5EA;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+ }
+ .consultation-item::before{
+    content: '';
+    background-color: #FCB045;
+    height: 1px;
+    width: 10px;
+    display: block;
+ }

@@ -1,0 +1,106 @@
+ .footer{
+    background-color: #0E1014;
+    padding-left: 15px;
+    padding-right: 34px;
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+
+.about-company p{
+    color: #656566;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    padding-bottom: 19px;
+}
+.about-company ul li{
+       color: #E4E5EA;
+       font-size: 14px;
+       font-family: 'Inter', sans-serif;
+       padding-bottom: 10px;
+
+}
+
+.menu-wrapper p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    padding-top: 20px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu-item ul li {
+    color:#E4E5EA;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 10px;
+}
+.contacts p {
+    color:#656566;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.apps{
+    display: flex;
+   align-items:center;
+   gap: 10px;
+   padding-top: 8px;
+   padding-bottom: 10px;
+}
+
+.telegram{
+    background-image:url(../../Components/img/apps/telegram.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: block;
+
+ }
+  
+ .whatsUp{
+    background-image:url(../../Components/img/apps/whatsUp.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: block;
+
+ }
+ 
+ .viber{
+    background-image:url(../../Components/img/apps/viber.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: block;
+ }
+
+.phone-number{
+    color:#E4E5EA;
+    font-size: 16px;
+}
+.address{
+    color:#E4E5EA;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 50px;
+}
+.rights{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color:#E4E5EA;
+
+}
+.rights span{
+    padding-top: 5px;
+    text-decoration: underline;
+     
+}
+
+ 
